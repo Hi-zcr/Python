@@ -7,8 +7,9 @@ Windows7（8.1）  Python，Numpy，matpltlib安装教程
         在官网下载，并加入系统环境变量内,可在命令台输入python进行测试。
 
 ### 2.安装networkx-1.11-py2.7.egg
-        NetworkX是一个用Python语言开发的图论与复杂网络建模工具，内置了常用的图与复杂网络分析算法，可以方便的进行复杂网络数据分析、仿真建模等工作。
-        启动DOS控制台（在“运行”里输入cmd），输入D:\Android\python\Lib\site-packages\easy_install.py D:\networkx-1.11-py2.7.egg，回车后
+        NetworkX是一个用Python语言开发的图论与复杂网络建模工具，内置了常用的图与复杂网络分析算法，可以方便的进行复杂网络数据
+        分析、仿真建模等工作。启动DOS控制台（在“运行”里输入cmd），
+        输入D:\Android\python\Lib\site-packages\easy_install.py D:\networkx-1.11-py2.7.egg，回车后
         会自动执行安装。注意我是把networkx-1.11-py2.7.egg放到了D盘根目录，读者在安装时应该具体根据情况修改路径。
         在命令台测试
 
