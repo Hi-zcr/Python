@@ -21,7 +21,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 可正确输出<module 'networkx' from 'D:\Android\Python\lib\site-packages\networkx-1.11-py2.7.egg\networkx\__init__.pyc'>，配置正确。
 
-3.（此处与步骤5冲突，可忽略此步）安装Matplotlib，Matplotlib是一个Python的图形框架，类似于MATLAB和R语言。Matplotlib的官网地址是 http://matplotlib.org/ ，下载地址为 http://matplotlib.org/downloads.html，选择对应的版本即可安装，我选择的版本为 matplotlib-1.3.1.win32-py2.7.exe
+3.（此处与步骤5冲突，可忽略此步）安装Matplotlib，Matplotlib是一个Python的图形框架，类似于MATLAB和R语言。Matplotlib的官网地址是 http://matplotlib.org/ ，下载地址为 http://matplotlib.org/downloads.html 选择对应的版本即可安装，我选择的版本为 matplotlib-1.3.1.win32-py2.7.exe
 下载链接
 https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.win32-py2.7.exe
 下载成功，直接运行即可。
@@ -50,7 +50,7 @@ import networkx as nx
 
 6.搭建成功
 新建test.py,内容如下
-#--This is a test
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -68,7 +68,7 @@ womenMeans = (25, 32, 34, 20, 25)
 womenStd =   (3, 5, 2, 3, 3)
 rects2 = ax.bar(ind+width, womenMeans, width, color='y', yerr=womenStd)
 
-# add some
+
 ax.set_ylabel('Scores')
 ax.set_title('Scores by group and gender')
 ax.set_xticks(ind+width)
@@ -88,7 +88,7 @@ autolabel(rects2)
 
 plt.show()
 
-#--This is a test
+
 
 在python GUI窗口运行test.py，运行成功，可成功绘制图
 
