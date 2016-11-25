@@ -25,7 +25,7 @@ Windows7（8.1）  Python，Numpy，matpltlib安装教程
         配置正确。
 
 ###3.（此处与步骤5冲突，可忽略此步）安装Matplotlib
-        Matplotlib是一个Python的图形框架，类似于MATLAB和R语言。Matplotlib的官网地址是 [http://matplotlib.org/]()<br /> ，下载地址为
+        Matplotlib是一个Python的图形框架，类似于MATLAB和R语言。Matplotlib的官网地址是 [http://matplotlib.org/](http://matplotlib.org/)<br /> ，下载地址为
         http://matplotlib.org/downloads.html 选择对应的版本即可安装，我选择的版本为 matplotlib-1.3.1.win32-py2.7.exe
         下载链接
         https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.win32-py2.7.exe
